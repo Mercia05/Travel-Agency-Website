@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ===== MENU BAR ===== */
+#menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: wheat;
+  height: 50px;
+  padding-left: 20px;
+}
+
+#menu a {
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#menu a:hover {
+  color: #5077bd;
+}
